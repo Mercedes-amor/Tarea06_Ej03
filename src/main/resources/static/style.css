@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(162, 189, 196);
+}
+
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Para asegurar que ocupe todo el alto de la ventana */
+    justify-content: space-between; /* Empuja el botón al fondo */
+  }
+
+  .SubContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card {
+    background-color: rgba(236, 242, 247, 0.568);
+    width: 500px;
+    padding: 15px;
+    margin: 10px;
+}
+
+button {
+    margin: 20px;
+  }

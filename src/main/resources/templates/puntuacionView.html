@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/webjars/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <title>Tarea 6-Mercedes Amor</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <h2>Puntuación del Test</h2>
+        <div class="result">
+            <p>Tu puntuación es: <span th:text="${puntuacion}"></span> de 6</p>
+        </div>
+
+        <a href="/test">Volver a intentar</a>
+    </div>
+
+</body>
+</html>
