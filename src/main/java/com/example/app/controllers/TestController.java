@@ -42,9 +42,9 @@ public class TestController {
             @RequestParam(value = "respuesta_1", required = false) Integer respuesta1,
             @RequestParam(value = "respuesta_2", required = false) Integer respuesta2,
             @RequestParam(value = "respuesta_3", required = false) Integer respuesta3,
-            @RequestParam(value = "respuesta_3", required = false) Integer respuesta4,
-            @RequestParam(value = "respuesta_3", required = false) Integer respuesta5,
-            @RequestParam(value = "respuesta_3", required = false) Integer respuesta6) {
+            @RequestParam(value = "respuesta_4", required = false) Integer respuesta4,
+            @RequestParam(value = "respuesta_5", required = false) Integer respuesta5,
+            @RequestParam(value = "respuesta_6", required = false) Integer respuesta6) {
 
         // Variable para almacenar la puntuación
         int puntuacion = 0;
